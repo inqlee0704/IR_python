@@ -34,11 +34,11 @@
 # ###################################################################################
 # Step 16. Airtrapping, Emphysema, HAA, RRAVC, s*
   for (( i=1; i<=$nreg ; i++ )); do
-    python Airtrapping_v1.py $Subj ${I1[i]} ${I2[i]} -856
+#   python Airtrapping_v1.py $Subj ${I1[i]} ${I2[i]} -856
 #   python Emph.py $Subj ${I1[i]} ${I2[i]} -950 -856
-    python Emph_fSAD_v1.py $Subj ${I1[i]} ${I2[i]} -950 -856
-    python HAA_v1.py $Subj ${I1[i]} ${I2[i]} -700 0
-    python RRAVC_v1.py $Subj ${I1[i]} ${I2[i]} 
+#   python Emph_fSAD_v1.py $Subj ${I1[i]} ${I2[i]} -950 -856
+#   python HAA_v1.py $Subj ${I1[i]} ${I2[i]} -700 0
+#   python RRAVC_v1.py $Subj ${I1[i]} ${I2[i]} 
     python S_norm_v1b.py $Subj ${I1[i]} ${I2[i]} 
   done
 # ############################################################################### END
